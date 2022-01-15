@@ -20,7 +20,7 @@
     "lint:fix": "eslint --fix",
     "format": "prettier --write",
     "prepare": "husky install",
-    "teste": "git-cz"
+    "commit": "cz"
   },
   "lint-staged": {
     "*.{js,jsx,md,html,css}": [
