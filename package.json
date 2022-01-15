@@ -19,8 +19,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
     "format": "prettier --write",
-    "prepare": "husky install",
-    "commit": "cz"
+    "prepare": "husky install"
   },
   "lint-staged": {
     "*.{js,jsx,md,html,css}": [
