@@ -24,12 +24,11 @@ function useAsync(asyncFunction, immediate = true) {
       });
   }, [asyncFunction]);
 
-  // Se falso executa apenas quando execute for chamado
   useEffect(() => {
     if (immediate) {
       execute();
     }
-  }, [execute, immediate]);
+  }, [immediate]);
 
   return {
     execute,
