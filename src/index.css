@@ -1,0 +1,15 @@
+.image__size {
+  height: 150px;
+  width: 150px;
+}
+
+.mh__60 {
+  max-height: 60vh;
+}
+
+.back__icon {
+  cursor: pointer;
+  height: 2.5em;
+  width: 2.5em;
+  float: left;
+}
