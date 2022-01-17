@@ -1,5 +1,14 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Routes from './routes';
+import { UserProvider } from './hooks/useUserProfile';
+
 function App() {
-  return <div>Hello world</div>;
+  return (
+    <UserProvider>
+      <Routes />
+    </UserProvider>
+  );
 }
 
 export default App;
